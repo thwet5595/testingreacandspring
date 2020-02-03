@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css"/>
+       
+<head>
+<title>Home</title>
+</head>
+<body>
+    <h1>Hello world!</h1>
+
+    <p>
+        The time on the server is
+        <span th:text="${serverTime}" th:remove="tag">server time</span>
+    </p>
+    	<div id="app"></div>
+</body>
+<!-- <script type="text/javascript"
+	src="/app1/build/static/js/main.35d639b7.js"></script> -->
+	<script type="text/javascript"
+	src="/resources/src/client/public/index-bundle.js"></script>
+</html>
